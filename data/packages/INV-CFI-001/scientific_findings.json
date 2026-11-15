@@ -1,0 +1,113 @@
+[
+  {
+    "description": "Quasi-steady low-temperature 'cool flames' (700–900 K, invisible to color cameras) were observed following radiative extinction of hot flames (>1200 K) during microgravity droplet combustion of pure n-dodecane, n-dodecane/iso-dodecane mixtures (75/25% and 60/40% by mass), and farnesane. Adding iso-dodecane to n-dodecane reduces the tendency to form cool flames.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Two-stage droplet combustion and branched-alkane inhibition of NTC cool-flame chemistry",
+    "reported_values": {
+      "reported_numerical_values": {
+        "FLEX_1223_n_dodecane_1.25atm": {
+          "P_mmHg": 946.618,
+          "Y_O2": 0.21,
+          "Y_N2": 0.79,
+          "D0_mm": 4.04,
+          "Dext_hot_mm": 3.627,
+          "k_avg_hot_mm2_s": 0.388,
+          "k_avg_cool_mm2_s": 0.401,
+          "Dext_cool_mm": 0.392
+        }
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "Cool flames are sustained by low-temperature branching reactions in the NTC region where heat release dynamically balances conductive/diffusive heat loss close to the droplet surface.",
+      "experimental_or_computational_context": "Over 200 microgravity droplet combustion tests onboard ISS CIR/MDCA (Jan–Sept 2017) with initial droplet diameters ~4 mm.",
+      "associated_experimental_conditions": "COND-CFI-01",
+      "extraction_finding_id": "FIND-CFI-01"
+    },
+    "source_page": 8,
+    "source_section": "5.1 Cool flames",
+    "source_figure": "ure 1",
+    "source_table": null
+  },
+  {
+    "description": "At ambient pressures above approximately 2 atm, droplets exhibited three-stage combustion (hot flame -> warm flame -> cool flame) and multiple hot-flame reignition cycles, repeating until complete consumption of the fuel droplet. Addition of helium enhances the dynamic heat-release/heat-loss balance supporting warm flames in the NTC region.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Three-stage combustion (warm flames) and oscillatory hot-flame reignition at elevated pressure",
+    "reported_values": {
+      "reported_numerical_values": {
+        "FLEX_1268_n_dodecane_3atm": {
+          "P_mmHg": 2086.999,
+          "Y_O2": 0.216,
+          "Y_N2": 0.502,
+          "Y_He": 0.282,
+          "D0_mm": 4.345,
+          "Dext_hot_mm": 4.012,
+          "k_avg_hot_mm2_s": 0.404,
+          "k_avg_cool_mm2_s": 0.56,
+          "Dext_cool_mm": 2.563
+        }
+      },
+      "evidence_type_as_extracted": "Direct experimental observation and chemical-kinetic interpretation",
+      "author_interpretation": "Warm flames arise when intermediate-temperature chemical pathways become active between low-temperature branching and high-temperature kinetics; multiple reignitions at >2 atm were unexpected based on earlier FLEX experiments.",
+      "experimental_or_computational_context": "Microgravity droplet combustion at pressures > 2 atm (e.g., FLEX-1268 n-dodecane at ~3 atm with helium dilution).",
+      "associated_experimental_conditions": "COND-CFI-01",
+      "extraction_finding_id": "FIND-CFI-02"
+    },
+    "source_page": 9,
+    "source_section": "5.2 Warm flames",
+    "source_figure": "ure 2, Figure 3",
+    "source_table": null
+  },
+  {
+    "description": "Cool-flame droplet extinction diameter (D_ext,cool) for pure n-dodecane in air decreases sharply as ambient pressure increases from 0.5 atm (~1.75–1.9 mm) to 1.25 atm (~0.2–0.4 mm), and drops to 0 mm (complete droplet consumption via reignition) at pressures >= 2 atm. Tethering on a 40-micron SiC fiber has negligible effect on D_ext,cool compared to free-floating droplets. Increasing helium dilution (29% and 59% He at 21% O2) causes earlier cool-flame extinction at substantially larger droplet diameters.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Pressure, fiber-tethering, and helium-dilution effects on diffusive/kinetic cool-flame extinction diameter",
+    "reported_values": {
+      "reported_numerical_values": {
+        "pressure_threshold_for_complete_consumption_atm": 2.0,
+        "fiber_diameter_microns": 40
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "Cool-flame extinction occurs when droplet shrinkage reduces gas-phase residence time until static stability is lost at the lower turning point of the NTC curve; higher thermal conductivity/diffusivity of helium accelerates heat loss and triggers earlier extinction.",
+      "experimental_or_computational_context": "Comparative measurements of free-floating vs. 40-micron fiber-supported n-dodecane droplets across 0.5–5 atm in air, 17% O2/83% N2, 21% O2/29% He, and 21% O2/59% He.",
+      "associated_experimental_conditions": "COND-CFI-01",
+      "extraction_finding_id": "FIND-CFI-03"
+    },
+    "source_page": 10,
+    "source_section": "5.3 Cool flame extinction",
+    "source_figure": "ure 4, Figure 5",
+    "source_table": null
+  },
+  {
+    "description": "At low ambient pressures (0.50–1.00 atm), a well-defined spherical soot shell forms during hot-flame burning and convects away during the subsequent cool flame with no new soot formed. At elevated pressures (2.00, 3.00, and 5.00 atm), the soot shell becomes unstable, diffuse, and ill-defined, and residual soot remains surrounding the droplet even after hot-flame extinction.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Pressure-induced destabilization of spherical soot shells and residual soot retention during cool flames",
+    "reported_values": {
+      "reported_numerical_values": {
+        "pressures_imaged_atm": [
+          0.5,
+          0.75,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "pressures_imaged_mmHg": [
+          380,
+          570,
+          760,
+          1520,
+          2280,
+          3800
+        ]
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "Soot shell position reflects a balance between outward Stefan/drag forces and inward thermophoretic forces; the physical mechanism causing high-pressure soot shell destabilization and residual soot persistence is not yet understood.",
+      "experimental_or_computational_context": "Backlit monochrome imaging of n-dodecane droplets at ~380, 570, 760, 1520, 2280, and 3800 mmHg (~4 s after igniter withdrawal for hot flame; ~5 s after hot-flame extinction for cool flame).",
+      "associated_experimental_conditions": "COND-CFI-01",
+      "extraction_finding_id": "FIND-CFI-04"
+    },
+    "source_page": 11,
+    "source_section": "5.4 Sooting behavior as function of ambient pressure",
+    "source_figure": "ure 6",
+    "source_table": null
+  }
+]

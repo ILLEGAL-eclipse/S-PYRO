@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------------------------
+   S-PYRO "Solar Corona": obsidian void, thermal spectrum (white-gold -> amber -> crimson -> plum ember),
+   corona bloom lighting, hairline ember borders. Data-dense areas stay on void/umber for legibility.
+   void #050406 · umber #110C0E · garnet #1C1014 · cream #FFF8E7 · sand #B8A99A · flare #FF9E1B · crimson #B81D24 · plum #4A0E1C
+   --------------------------------------------------------------------------------------------- */
+@layer base {
+  :root {
+    --background: 300 20% 2.2%;
+    --foreground: 43 100% 95%;
+    --card: 340 17% 5.8%;
+    --card-foreground: 43 100% 95%;
+    --sidebar: 320 20% 3.2%;
+    --primary: 35 100% 55%;
+    --primary-foreground: 300 20% 2.2%;
+    --secondary: 345 27% 8.6%;
+    --secondary-foreground: 43 100% 95%;
+    --muted: 349 28% 11%;
+    --muted-foreground: 30 17% 66%;
+    --border: 22 50% 15%;
+    --input: 20 32% 20%;
+    --ring: 35 100% 55%;
+    --success: 95 35% 60%;
+    --warning: 47 95% 62%;
+    --danger: 8 78% 56%;
+    --violet: 22 65% 74%;
+    color-scheme: dark;
+  }
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply text-foreground antialiased;
+    background:
+      radial-gradient(900px 560px at -8% 6%, rgba(255,158,27,0.10), transparent 60%),
+      radial-gradient(820px 620px at 106% 108%, rgba(184,29,36,0.11), transparent 62%),
+      radial-gradient(700px 420px at 60% -10%, rgba(74,14,28,0.35), transparent 65%),
+      #050406;
+    background-attachment: fixed;
+  }
+  h1, h2, h3 { font-family: var(--font-display), Georgia, serif; letter-spacing: -0.02em; font-weight: 600; }
+  ::selection { background: rgba(255, 158, 27, 0.35); color: #050406; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: #3a2226; border: 2px solid #050406; border-radius: 8px; }
+}
+
+@layer utilities {
+  .font-display { font-family: var(--font-display), Georgia, serif; font-variant-numeric: lining-nums; letter-spacing: -0.015em; }
+}
+
+@layer components {
+  /* charred-umber panel with an ember hairline */
+  .glass { background: linear-gradient(180deg, rgba(255,158,27,0.035), transparent 42%), #110C0E; border: 1px solid rgba(255, 158, 27, 0.18); }
+  /* thin thermal highlight along a panel's top edge */
+  .litho::before {
+    content: ""; position: absolute; left: 14px; right: 14px; top: 0; height: 1px; pointer-events: none; z-index: 1;
+    background: linear-gradient(90deg, transparent, rgba(255,243,196,0.6), rgba(255,158,27,0.5) 40%, rgba(217,56,30,0.35) 70%, transparent);
+  }
+  /* hover: border warms and a corona bloom appears */
+  .card-sweep { transition: border-color .3s, box-shadow .3s, transform .3s; }
+  .card-sweep:hover, .card-sweep:focus-within { border-color: rgba(255, 158, 27, 0.55); box-shadow: 0 0 32px rgba(217, 56, 30, 0.22), 0 0 12px rgba(255, 158, 27, 0.15); }
+  .stagger > * { animation: rise .55s cubic-bezier(.2,.8,.2,1) both; }
+  .stagger > *:nth-child(2) { animation-delay: .06s } .stagger > *:nth-child(3) { animation-delay: .12s }
+  .stagger > *:nth-child(4) { animation-delay: .18s } .stagger > *:nth-child(5) { animation-delay: .24s }
+  .stagger > *:nth-child(6) { animation-delay: .30s } .stagger > *:nth-child(n+7) { animation-delay: .36s }
+  .glow-cyan { box-shadow: 0 0 32px rgba(217, 56, 30, 0.22), 0 0 12px rgba(255, 158, 27, 0.15); }
+  .glow-amber { box-shadow: 0 0 22px rgba(255, 158, 27, 0.25); }
+  .text-chemi, .text-incandescent {
+    background: linear-gradient(135deg, #FFF3C4 0%, #FF9E1B 38%, #D9381E 72%, #B81D24 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 18px rgba(255, 158, 27, 0.3));
+  }
+  .prose-spyro p { @apply mb-3 leading-relaxed; }
+  .prose-spyro ul { @apply mb-3 ml-5 list-disc space-y-1; }
+  .prose-spyro strong { @apply font-semibold text-foreground; }
+  .prose-spyro code { @apply rounded bg-secondary px-1 py-0.5 font-mono text-[0.85em]; }
+  .prose-spyro h3 { @apply mb-2 mt-4 text-base font-semibold; }
+  .prose-spyro .katex { font-size: 1.04em; }
+  .prose-spyro .katex-display { margin: 0.6rem 0; overflow-x: auto; overflow-y: hidden; }
+  .label-caps { @apply font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground; }
+  .telemetry { @apply font-mono text-[12px] tabular-nums; }
+  /* fixed 3% film grain */
+  .grain {
+    position: fixed; inset: 0; z-index: 60; pointer-events: none; opacity: 0.03; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+}
+
+@keyframes flame-run { from { background-position-x: 0; } to { background-position-x: -200px; } }
+@keyframes flame-run-rev { from { background-position-x: -260px; } to { background-position-x: 0; } }
+@keyframes flicker { 0%,100% { transform: scale(1,1) skewX(0deg); } 30% { transform: scale(1.03,0.97) skewX(1.2deg); } 60% { transform: scale(0.98,1.04) skewX(-1deg); } }
+@keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes ember-pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

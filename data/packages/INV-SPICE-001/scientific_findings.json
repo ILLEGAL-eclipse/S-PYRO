@@ -1,0 +1,189 @@
+[
+  {
+    "description": "Fifty-two (52) laminar smoke points were measured aboard the ISS in non-buoyant round-jet diffusion flames in co-flowing air across five fuel compositions (C2H4, C3H8, C3H6, 75% C3H6/25% N2, 50% C3H6/50% N2), whereas methane (CH4) did not reach a smoke point before the flame impinged on the downstream copper screen at the end of the duct.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Laminar smoke point threshold in microgravity co-flowing jet diffusion flames",
+    "reported_values": {
+      "reported_numerical_values": {
+        "total_flames_ignited": 526,
+        "smoke_points_table_1": 52,
+        "smoke_points_closing_remarks": 55,
+        "smoke_points_by_fuel": {
+          "C2H4": 6,
+          "C3H8": 6,
+          "C3H6": 20,
+          "75%_C3H6": 13,
+          "50%_C3H6": 7,
+          "CH4": 0
+        }
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "All observed smoke-point flames were attached to the burner (not lifted). Ethylene testing was limited by fuel supply depletion (two 150 cc bottles at 760–1440 kPa gauge).",
+      "experimental_or_computational_context": "Experimental microgravity flight tests in ISS MSG across 526 total ignited flames (12 sessions, Feb–June 2009); burner IDs 0.41, 0.76, 1.6 mm; co-flow velocities 5.4–65 cm/s.",
+      "associated_experimental_conditions": "COND-SPICE-01 (298 K, 101 kPa, 21 +/- 1% O2 assumed)",
+      "extraction_finding_id": "FIND-SPICE-01"
+    },
+    "source_page": 34,
+    "source_section": "Test Results",
+    "source_figure": null,
+    "source_table": "1"
+  },
+  {
+    "description": "Two distinct visual flame tip behaviors occur at the smoke point in microgravity depending on fuel luminosity: propane and ethylene exhibit gradual dimming, reddening, and rounding of the luminous flame tip, whereas bright flames (propylene and propylene/N2 mixtures) exhibit a rapid transition to open-tipped flames with centerline flame extinguishment and an annular shell of escaping soot.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Open-tipped flame extinction and soot escape morphology at smoke point",
+    "reported_values": {
+      "reported_numerical_values": {
+        "gray_transition_zone_at_tip_mm": "2 - 5"
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "Open-tipped flames are common in microgravity when smoke points are far exceeded, associated with radiative heat loss causing flame extinguishment along the centerline and reactant/soot leakage.",
+      "experimental_or_computational_context": "Experimental visual and digital still/video observation of attached co-flow laminar jet diffusion flames in microgravity.",
+      "associated_experimental_conditions": "COND-SPICE-01",
+      "extraction_finding_id": "FIND-SPICE-02"
+    },
+    "source_page": 34,
+    "source_section": "Test Results",
+    "source_figure": "ure 17",
+    "source_table": null
+  },
+  {
+    "description": "For a fixed fuel flow rate, decreasing co-flow air velocity increases luminous flame length until the smoke point is exceeded, after which luminous length decreases due to tip extinction. Conversely, for a fixed fuel and burner diameter, increasing co-flow air velocity moves the smoke point to higher fuel flow rates and longer luminous smoke-point flame lengths.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Co-flow velocity effect on luminous flame length and smoke point length",
+    "reported_values": {
+      "reported_numerical_values": {
+        "Fig17_top_sequence_75pct_C3H6_1.6mm": {
+          "uf_cm_s": 41.9,
+          "ua_cm_s": [
+            59.0,
+            55.2,
+            47.7,
+            36.4
+          ]
+        },
+        "Fig17_bottom_sequence_75pct_C3H6_1.6mm": {
+          "ua_cm_s": 50.5,
+          "uf_cm_s": [
+            28.2,
+            32.9,
+            37.6,
+            42.3
+          ]
+        }
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "Increasing co-flow velocity decreases centerline residence times and radiative heat-loss fractions, delaying soot escape and lengthening the smoke-point flame. Flame length is more sensitive to fuel flow rate than co-flow velocity because excess oxidizer is available.",
+      "experimental_or_computational_context": "Experimental measurements across co-flow velocities 5.4 to 65 cm/s and burner diameters 0.41, 0.76, and 1.6 mm.",
+      "associated_experimental_conditions": "COND-SPICE-01",
+      "extraction_finding_id": "FIND-SPICE-03"
+    },
+    "source_page": 35,
+    "source_section": "Test Results",
+    "source_figure": "ure 17, Figure 18",
+    "source_table": null
+  },
+  {
+    "description": "In microgravity co-flowing flames, smoke-point luminous flame length decreases with increasing burner inner diameter (smaller burners yield longer smoke-point lengths). When extrapolated to zero co-flow velocity, the dependence on burner diameter diminishes.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Burner diameter scaling of non-buoyant co-flowing smoke-point flames",
+    "reported_values": {
+      "reported_numerical_values": {
+        "burner_diameters_mm": [
+          0.41,
+          0.76,
+          1.6
+        ]
+      },
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "author_interpretation": "Attributed to residence time effects because fuel jet velocity scales as d^-2 at constant fuel mass flow rate; higher jet velocities from smaller nozzles reduce residence time and radiative loss fraction. Note that 0.41 mm burner tests (propylene only) showed day-to-day repeatability scatter.",
+      "experimental_or_computational_context": "Comparison of 0.41 mm, 0.76 mm, and 1.6 mm inner diameter nozzles in co-flowing air, compared against quiescent microgravity data (Urban et al., 2000).",
+      "associated_experimental_conditions": "COND-SPICE-01",
+      "extraction_finding_id": "FIND-SPICE-04"
+    },
+    "source_page": 35,
+    "source_section": "Test Results",
+    "source_figure": "ure 18",
+    "source_table": null
+  },
+  {
+    "description": "Measured microgravity smoke-point luminous flame lengths scale empirically with burner diameter and co-flow air velocity as L_SP proportional to d^(-0.91) * u_air^(0.41), and correlate linearly with fuel mass flow rate divided by stoichiometric mixture fraction (m_dot_f / Z_st) via L_SP = 1.6097 * (m_dot_f / Z_st) with R^2 = 0.9514 (with flames having u_a/u_f < 0.08 lying slightly above the correlation).",
+    "evidence_type": "numerical_result",
+    "phenomenon": "Empirical scaling laws for non-buoyant co-flow smoke-point flame lengths",
+    "reported_values": {
+      "reported_numerical_values": {
+        "diameter_exponent": -0.91,
+        "coflow_velocity_exponent": 0.41,
+        "linear_fit_slope_mm_per_mg_s": 1.6097,
+        "R_squared": 0.9514,
+        "low_velocity_ratio_threshold": 0.08
+      },
+      "evidence_type_as_extracted": "Calculated/empirical regression result from experimental data",
+      "author_interpretation": "Consistent with stoichiometric flame length theory where smoke point occurs at roughly twice the stoichiometric flame length, though centerline residence time models alone failed to produce a universal quantitative correlation.",
+      "experimental_or_computational_context": "Regression analysis of 52 measured smoke-point conditions across all tested hydrocarbon fuels and burner sizes.",
+      "associated_experimental_conditions": "COND-SPICE-01",
+      "extraction_finding_id": "FIND-SPICE-05"
+    },
+    "source_page": 36,
+    "source_section": "Test Results / Closing Remarks",
+    "source_figure": "ure 19",
+    "source_table": null
+  },
+  {
+    "description": "Based on smoke-point flame lengths at fixed burner diameter and co-flow velocity (and pseudo threshold soot index estimates), the sooting propensity of the tested fuels in microgravity increases in the order: ethylene < propane < 50% propylene < 75% propylene < propylene (with an exception on the 0.76 mm burner where ethylene exhibited a longer smoke-point length than propane). This reverses the normal-gravity ranking between ethylene and propane.",
+    "evidence_type": "author_interpretation",
+    "phenomenon": "Anomalously high sooting propensity of propane in microgravity diffusion flames",
+    "reported_values": {
+      "reported_numerical_values": {
+        "sooting_propensity_order_microgravity": "ethylene < propane < 50% propylene < 75% propylene < propylene"
+      },
+      "evidence_type_as_extracted": "Authors' interpretation and comparative conclusion",
+      "author_interpretation": "Propane exhibits an unusually high sooting propensity in microgravity compared to normal gravity; lower density of ethylene reduces residence time, though authors note this alone is unlikely to fully explain its long smoke point on the 0.76 mm burner.",
+      "experimental_or_computational_context": "Comparison of smoke-point lengths and pseudo-TSI across fuels in microgravity vs normal-gravity apparatus results.",
+      "associated_experimental_conditions": "COND-SPICE-01",
+      "extraction_finding_id": "FIND-SPICE-06"
+    },
+    "source_page": 36,
+    "source_section": "Test Results / Closing Remarks",
+    "source_figure": "ure 18",
+    "source_table": "1"
+  },
+  {
+    "description": "Cold-flow anemometer mapping at 18 duct locations and COMSOL numerical simulations show that the co-flow air velocity profile inside the SPICE duct is spatially non-uniform, exhibiting a pronounced centerline velocity deficit (center-dipping wake) at the 13 mm downstream station caused by the nozzle boundary layer, which partially persists at the 56 mm station.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Nozzle wake and boundary layer distortion in co-flowing duct flow",
+    "reported_values": {
+      "reported_numerical_values": {
+        "measurement_stations_mm": [
+          13,
+          56
+        ],
+        "heights_off_floor_mm": [
+          19,
+          36,
+          57
+        ],
+        "lateral_offsets_mm": [
+          -20,
+          0,
+          20
+        ],
+        "comsol_nozzle_velocity_cm_s": 50,
+        "comsol_coflow_velocities_cm_s": [
+          0,
+          25,
+          100
+        ]
+      },
+      "evidence_type_as_extracted": "Direct experimental observation and numerical simulation result",
+      "author_interpretation": "A minimum DC voltage is applied to the fan even at dial setting 0 to prevent fuel accumulation; actual velocity with a flame is further altered by thermal expansion and cannot be directly measured due to MSG diagnostic space limits.",
+      "experimental_or_computational_context": "Pre-flight hot-wire/omni-directional anemometer measurements across 6 fan dial settings (0, 2, 4, 6, 8, 10) and 2D axisymmetric COMSOL simulations for 1.6 mm ID nozzle (50 cm/s jet velocity; 0, 25, 100 cm/s co-flow).",
+      "associated_experimental_conditions": "COND-SPICE-01 (cold flow characterization without flame)",
+      "extraction_finding_id": "FIND-SPICE-07"
+    },
+    "source_page": 30,
+    "source_section": "B. Air velocity distribution in the flow duct",
+    "source_figure": "ures 13-16",
+    "source_table": null
+  }
+]

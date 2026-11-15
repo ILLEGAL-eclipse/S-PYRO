@@ -1,0 +1,20 @@
+{
+  "publication_id": "PUB-ACME-001",
+  "investigation_id": "INV-ACME-001",
+  "publication_title": "Laminar Non-Premixed Flames of Gaseous Fuel Aboard the International Space Station",
+  "authors": [
+    "Dennis P. Stocker"
+  ],
+  "publication_year": 2022,
+  "publication_date": "2022-05-15",
+  "doi": null,
+  "journal_or_conference": "2022 Spring Technical Meeting of The Central States Section of the Combustion Institute",
+  "publication_type": "Conference Paper",
+  "abstract": "From late 2017 to early 2022, six independent studies with flames of gaseous fuels were conducted on the International Space Station (ISS) in the U.S. combustion research facility. An exploration of flames at the extremes of high sooting and high dilution was conducted with a coaxial coflow burner... The objectives and selected findings of each investigation will be briefly discussed after a short review of the advantages of studying combustion in microgravity, earlier ISS research, and the experimental hardware and its operation.",
+  "keywords": [
+    "flames",
+    "microgravity",
+    "non-premixed",
+    "laminar"
+  ]
+}

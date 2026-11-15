@@ -1,0 +1,20 @@
+[
+  {
+    "application_category": "M. Spacecraft habitat fire safety",
+    "relevant_scientific finding": "Low-momentum microgravity flames (BRE) can burn for minutes in quiescent atmospheres but self-extinguish in oxygen concentrations below ~25% by volume (methane within 1 minute, larger ethylene flames within 1.5 minutes).",
+    "supporting_experimental_evidence": "ISS testing using flat porous burners simulating condensed-phase fuels at elevated oxygen concentrations and reduced pressures considered for future spacecraft.",
+    "direct_or_potential_application": "Potential application",
+    "experimental_limitations": "Evaluated using gaseous fuel surrogates (methane/ethylene) rather than solid polymers in a constant volume chamber.",
+    "source_page": 6,
+    "source_section": "3. Results and Discussion"
+  },
+  {
+    "application_category": "B. Flame spread over solid materials",
+    "relevant_scientific finding": "Burning Rate Emulator (BRE) research examines extinction behavior and conditions needed for sustained combustion in still atmospheres as a function of material properties.",
+    "supporting_experimental_evidence": "Simulation of solid/liquid fuel vaporization using flat porous burners matching heats of combustion, gasification, surface temperature, and smoke point.",
+    "direct_or_potential_application": "Potential application",
+    "experimental_limitations": "Tested with gaseous fuels in microgravity without forced airflow or actual solid material regression.",
+    "source_page": 2,
+    "source_section": "1. Introduction / 3. Results and Discussion"
+  }
+]

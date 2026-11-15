@@ -1,0 +1,65 @@
+[
+  {
+    "figure_number": "Figure 1 (Section 3.a)",
+    "caption": "Three representative examples of radiative extinction and subsequent cool flame combustion of n-heptane droplets in air. Inset shows the visible flame, backlit droplet images and the vapor cloud formation.",
+    "page_number": 6,
+    "x_axis": "Time (s)",
+    "y_axis": "df (flame diameter) (mm); d^2 (squared droplet diameter) (mm^2)",
+    "description": "Time evolution of flame diameter (df) and squared droplet diameter (d^2) for three n-heptane droplets undergoing hot-flame burning, radiative extinction, quasi-steady cool-flame burning, and cool-flame extinction with post-extinction vapor cloud condensation. Figure type: Multi-axis time-series scatter/line plot with photographic insets. Legend: Three different initial droplet sizes (black, red, green curves); vertical tick marks indicate hot-flame radiative extinction and cool-flame extinction transitions; insets show OH*/visible flame, backlit droplet, and post-extinction vapor cloud. Conditions represented: n-Heptane droplets burning in air in microgravity (prior FLEX/FLEX-2 background data). Related finding: Background motivation for INV-CFI-001",
+    "qualitative_observations": "Following radiative extinction of the hot flame, d^2 continues to decrease linearly at a lower slope during quasi-steady cool-flame combustion until abruptly halting at a finite droplet diameter, leaving an unburned droplet surrounded by a condensing vapor cloud."
+  },
+  {
+    "figure_number": "Figure 1 (Section 5.1)",
+    "caption": "FLEX-1223: N-dodecane at 1.25 atm pressure in air.",
+    "page_number": 8,
+    "x_axis": "t / D0^2 (s/mm^2)",
+    "y_axis": "Df,cool (mm); Peak Cool Flame Grayscale (arbitrary grayscale units); (D/D0)^2 (dimensionless); Df (mm), Df/Dd; Flame Radiance (mm, dimensionless, W)",
+    "description": "Normalized time evolution (t/D0^2) of cool-flame diameter (FWHM and peak-to-peak), peak cool-flame grayscale intensity, normalized squared droplet diameter (D/D0)^2, hot-flame diameter, hot-flame FSR, and flame radiance for test FLEX-1223. Figure type: Stacked dual-panel time-series plot. Legend: Droplet History (red open circles), Hot-Flame Diameter (orange filled circles), Hot-Flame FSR (yellow circles), Cool Flame Diameter FWHM (cyan +), Cool Flame Diameter peak-peak (blue open circles), Cool Flame Grayscale (purple x). Conditions represented: Test FLEX-1223 (F090A08, March 31, 2017): n-dodecane, P = 946.618 mmHg (1.25 atm), Y_O2 = 0.210, Y_N2 = 0.790, D0 = 4.040 mm. Related finding: FIND-CFI-01",
+    "qualitative_observations": "Hot flame extinguishes radiatively early (D_ext = 3.627 mm, marked by blue dashed line), transitioning smoothly into a sustained cool flame (k_avg,cool = 0.401 mm^2/s) that persists until cool-flame extinction at D_ext,cool = 0.392 mm (green dashed line)."
+  },
+  {
+    "figure_number": "Figure 2 (Section 5.2)",
+    "caption": "Chemical kinetic pathways for n-alkane oxidation (Westbrook, 2010).",
+    "page_number": 9,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Low-temperature and intermediate-temperature radical branching pathways for n-alkane (RH) oxidation through R, RO2, QOOH, and O2QOOH to keto-hydroperoxide + OH (low-T branching) versus competing olefin/cyclic ether/HO2/OH channels. Figure type: Reaction pathway schematic diagram. Legend: Chemical species and reaction arrows adapted from Westbrook (2010). Conditions represented: Theoretical chemical kinetic framework for n-alkane oxidation. Related finding: FIND-CFI-02",
+    "qualitative_observations": "Illustrates how low-temperature chain branching dominates cool flames, whereas intermediate-temperature channels govern warm flames."
+  },
+  {
+    "figure_number": "Figure 3 (Section 5.2)",
+    "caption": "FLEX-1268 - N-dodecane at 3 atm burning in 12%O2 - 50% N2 - 29% Helium. Reignition and warm flame formation are shown.",
+    "page_number": 9,
+    "x_axis": "t / D0^2 (s/mm^2)",
+    "y_axis": "Df,cool (mm); Peak Cool Flame Grayscale (arbitrary grayscale units); (D/D0)^2 (dimensionless); Df (mm), Df/Dd; Flame Radiance (mm, dimensionless, W)",
+    "description": "Time history of flame diameters, grayscale intensity, normalized droplet diameter squared, and radiance showing transitions across Hot Flame, Warm Flame, Cool Flame, and Hot-Flame Reignition. Figure type: Stacked dual-panel time-series plot. Legend: Droplet History, Hot-Flame Diameter, Hot-Flame FSR, Cool Flame Diameter (FWHM & peak-peak), Cool Flame Grayscale, CH* Hot Flame Diameter, Estimated Droplet History; vertical dashed lines separate Hot Flame, Warm Flame, Cool Flame, and Hot-Flame Reignition regimes. Conditions represented: Test FLEX-1268 (F146A03, May 26, 2017): n-dodecane, P = 2086.999 mmHg (~3 atm), helium-diluted atmosphere (caption: 12% O2 - 50% N2 - 29% He; inset: Y_O2=0.216, Y_N2=0.502, Y_He=0.282), D0 = 4.345 mm. Related finding: FIND-CFI-02",
+    "qualitative_observations": "After hot-flame radiative extinction (D_ext = 4.012 mm), a steady warm flame persists over a long interval before transitioning briefly to a cool flame (D_ext,cool = 2.563 mm) and subsequently undergoing sharp hot-flame reignition."
+  },
+  {
+    "figure_number": "Figure 4 (Section 5.3)",
+    "caption": "Cool flame extinction diameters as a function of ambient pressure for n-dodecane droplets burning in air.",
+    "page_number": 10,
+    "x_axis": "Pressure (atm)",
+    "y_axis": "D_ext,cool (mm)",
+    "description": "Cool-flame extinction droplet diameter (D_ext,cool) versus ambient pressure (0.5 to 5 atm) comparing fiber-supported and free-floating n-dodecane droplets in air (21% O2, 79% N2). Figure type: Scatter plot. Legend: Open triangles: Test is Fiber Supported; Open circles: Test is Free Floating; Atmosphere: 21% O2, 79% N2, Dodecane. Conditions represented: Pure n-dodecane droplets in air at 0.5, 0.75, 1.0, 1.25, 2.0, 3.0, and 5.0 atm. Related finding: FIND-CFI-03",
+    "qualitative_observations": "D_ext,cool decreases steeply with pressure from 0.5 atm to 1.25 atm and reaches 0 mm at 2, 3, and 5 atm (where reignitions lead to complete droplet consumption). Fiber-supported and free-floating points overlap closely."
+  },
+  {
+    "figure_number": "Figure 5 (Section 5.3)",
+    "caption": "Effect of helium dilution on cool flame extinction during n-dodecane droplet combustion.",
+    "page_number": 11,
+    "x_axis": "Pressure (atm)",
+    "y_axis": "D_ext,cool (mm)",
+    "description": "Cool-flame extinction diameter (D_ext,cool) versus ambient pressure across four oxidizer/diluent mixtures for fiber-supported and free-floating n-dodecane droplets. Figure type: Scatter plot. Legend: Triangles: Fiber Supported; Circles: Free Floating; Red: 17% O2, 83% N2; Black: 21% O2, 79% N2; Yellow: 21% O2, 29% He; Purple: 21% O2, 59% He. Conditions represented: Pure n-dodecane droplets at 0.5 to 5 atm with varying N2 and He dilution. Related finding: FIND-CFI-03",
+    "qualitative_observations": "Increasing helium dilution (from 0% to 29% to 59% He at 21% O2) substantially increases D_ext,cool at 1 atm and 5 atm, causing earlier cool-flame extinction."
+  },
+  {
+    "figure_number": "Figure 6 (Section 5.4)",
+    "caption": "Backlit images of the droplet during hot and cool flame burning at atmospheric pressures of approximately 380, 570, 760, 1520, 2280 and 3800 mmHg. The hot flame images are approximately 4 sec after igniter withdraw and the cool flame images are approximately 5 sec after hot flame extinction.",
+    "page_number": 12,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Visual comparison of droplet, tethering fiber, and surrounding soot shell structure during hot flame (~4 s post-ignition) and cool flame (~5 s post-hot-extinction) across six pressures (0.50, 0.75, 1.00, 2.00, 3.00, 5.00 atm). Figure type: 2x6 grid of backlit monochrome shadowgraph/extinction photographs. Legend: Top rows: Hot Flame; Bottom rows: Cool Flame; Columns: P = 0.50, 0.75, 1.00, 2.00, 3.00, 5.00 atm. Red circles at 3.00 and 5.00 atm hot flame mark approximate droplet surface location. Conditions represented: Fiber-supported n-dodecane droplets at 380, 570, 760, 1520, 2280, and 3800 mmHg. Related finding: FIND-CFI-04",
+    "qualitative_observations": "Crisp concentric soot shells appear at 0.50–1.00 atm during hot burning and disappear completely during cool burning; at 2.00–5.00 atm, hot-flame soot becomes dense, asymmetric, and diffuse, and residual soot clouds persist around the droplet during the cool flame."
+  }
+]

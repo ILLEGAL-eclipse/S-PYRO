@@ -1,0 +1,70 @@
+{
+  "investigation_code": "INV-CFI-001",
+  "title": "Cool Flame Investigation (CFI)",
+  "abstract": "The CFI experiments are conceived as follow-up experiments to the FLEX and FLEX-2 droplet combustion experiments onboard the ISS to further explore quasi-steady 'cool flames' controlled by low-temperature chemistry in the NTC region of n-alkane fuels (temperatures 700 to 900 K, vs >1200 K for hot flames). Three fuel combinations were investigated—pure n-dodecane, n-dodecane/iso-dodecane mixtures, and farnesane—at ambient pressures up to 5 atmospheres, along with helium dilution. Droplet burning rates, flame dynamics, droplet extinction diameters, and flame radiant output were measured.",
+  "research_category": "Microgravity Droplet Combustion / Low-Temperature Hydrocarbon Chemistry",
+  "investigation_type": "Flight experiment (ISS)",
+  "combustion_phenomena": [
+    "Two-stage and three-stage droplet combustion (hot flame, warm flame, cool flame)",
+    "Radiative extinction of hot flames and transition to quasi-steady cool flames",
+    "Low-temperature branching kinetics in the Negative Temperature Coefficient (NTC) region",
+    "Multiple hot-flame reignition cycles at elevated pressures (>2 atm)",
+    "Diffusive/kinetic cool-flame extinction at finite droplet diameter",
+    "Soot-shell formation and destabilization at elevated pressures"
+  ],
+  "keywords": [
+    "cool flames",
+    "droplet combustion",
+    "negative temperature coefficient (NTC)",
+    "n-dodecane",
+    "iso-dodecane",
+    "farnesane",
+    "warm flames",
+    "radiative extinction",
+    "soot shell",
+    "microgravity"
+  ],
+  "objectives": [
+    "Further explore the newly discovered quasi-steady 'cool flames' controlled by low-temperature chemistry in the Negative Temperature Coefficient (NTC) region of n-alkane fuels.",
+    "Examine the cool flame combustion behavior of pure n-dodecane, n-dodecane/iso-dodecane fuel mixtures, and farnesane (a renewable jet fuel) over ambient pressures from 0.25 atm (or 0.5 atm tested) up to 5 atm.",
+    "Investigate the effects of fuel molecular structure, ambient pressure, fuel mixture composition, and helium dilution on droplet burning rates, flame dynamics, droplet extinction diameters, and flame radiant output."
+  ],
+  "metadata": {
+    "associated_research_programme": "International Space Station (ISS) Combustion Integrated Rack (CIR) / Multi-user Droplet Combustion Apparatus (MDCA); follow-up to FLEX and FLEX-2",
+    "research_institution": [
+      "NASA John H. Glenn Research Center",
+      "Case Western Reserve University (CWRU)",
+      "University of California, San Diego",
+      "Princeton University",
+      "University of South Carolina",
+      "ZIN Technologies Inc. (Engineering Team)"
+    ],
+    "authors": [
+      "Dr. Vedha Nayagam (CWRU/LTX, Staff Scientist)",
+      "Dr. Daniel L. Dietrich (NASA/LTX, Project Scientist)",
+      "Science Definition Team: Prof. Forman A. Williams (UCSD), Prof. Frederick L. Dryer (Princeton), Prof. Tanvir I. Farouk (Univ. of South Carolina), Dr. Vedha Nayagam, Dr. Daniel L. Dietrich",
+      "Russian Collaborators: Sergey M. Frolov, Valentin Ya. Basevich, Sergey N. Medvedev, Andrey A. Belyaev"
+    ],
+    "associated_publications": [
+      "Williams, F.A. and Nayagam, V., 2020. Cool-flame dodecane-droplet extinction diameters. Combustion and Flame, 212, pp.242-244.",
+      "Dietrich, D.L. et al., 2014. Droplet combustion experiments aboard the international space station. Microgravity Science and Technology, 26(2), 65-76.",
+      "Plus 17 additional FLEX/CFI publications listed in Appendix 6.b (pp. 11-12)."
+    ],
+    "mission_relevance_explicitly_supported": "Explicitly supported for terrestrial engine technologies (HCCI and RCCI internal combustion engines), renewable biofuel blending, validation of complex chemical kinetic mechanisms, and fuel reformulation for hydrogen production in fuel cells. Requires microgravity on ISS to achieve spherically symmetric burning and long residence times. Spacecraft fire safety is noted only as the focus of the precursor FLEX experiment.",
+    "investigation_identifier": "CFI (PSI datasets FLEX-1206 to FLEX-1431)",
+    "publication_date": "2020-07-23"
+  },
+  "publication": {
+    "title": "Cool Flame Investigation (CFI) Science Final Report",
+    "authors": [
+      "Dr. Vedha Nayagam (CWRU/LTX, Staff Scientist)",
+      "Dr. Daniel L. Dietrich (NASA/LTX, Project Scientist)",
+      "Science Definition Team: Prof. Forman A. Williams (UCSD), Prof. Frederick L. Dryer (Princeton), Prof. Tanvir I. Farouk (Univ. of South Carolina), Dr. Vedha Nayagam, Dr. Daniel L. Dietrich",
+      "Russian Collaborators: Sergey M. Frolov, Valentin Ya. Basevich, Sergey N. Medvedev, Andrey A. Belyaev"
+    ],
+    "publication_year": 2020,
+    "doi": null,
+    "publication_type": "Final report",
+    "abstract": "The CFI experiments are conceived as follow-up experiments to the FLEX and FLEX-2 droplet combustion experiments onboard the ISS to further explore quasi-steady 'cool flames' controlled by low-temperature chemistry in the NTC region of n-alkane fuels (temperatures 700 to 900 K, vs >1200 K for hot flames). Three fuel combinations were investigated—pure n-dodecane, n-dodecane/iso-dodecane mixtures, and farnesane—at ambient pressures up to 5 atmospheres, along with helium dilution. Droplet burning rates, flame dynamics, droplet extinction diameters, and flame radiant output were measured."
+  }
+}

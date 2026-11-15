@@ -1,0 +1,47 @@
+[
+  {
+    "figure_number": "Figure 1",
+    "caption": "NASA astronaut Kate Rubins at the Combustion Integrated Rack (CIR) holding the chamber insert for the Advanced Combustion via Microgravity Experiments (ACME) suite of experiments during 3 Feb. 2021 preparations for the next investigation.",
+    "page_number": 3,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Astronaut reconfiguring hardware at the CIR facility on the ISS. Figure type: Experimental photograph. Conditions represented: ISS ambient environment",
+    "qualitative_observations": "Shows physical scale and hardware configuration of CIR and chamber insert."
+  },
+  {
+    "figure_number": "Figure 2",
+    "caption": "ACME chamber insert used within the CIR facility.",
+    "page_number": 4,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Component layout of ACME chamber insert including mass flow controllers, PMT array, thermocouple rake, burner, camera, radiometer array, mesh electrode, and retracting hot-wire igniter. Figure type: Schematic / 3D CAD diagram. Legend: Labeled components: PMT array, Thermocouple rake, 3 Mass Flow Controllers, Burner, Camera (color, analog), Radiometer array, Electrode (mesh), Igniter (hot-wire, retracting). Conditions represented: Modular chamber insert hardware",
+    "qualitative_observations": "Illustrates the integration of sensors and controls on the chamber axis."
+  },
+  {
+    "figure_number": "Figure 3",
+    "caption": "Gas-jet flames shown at different scales: (a) composite overlay of three dilute methane coflow flames as a function of the matched fuel/coflow velocity, (b) example of the effect of the electric field strength on the flame size where the downstream mesh was negatively charged.",
+    "page_number": 6,
+    "x_axis": "Electric field potential (increasingly negative) for (b)",
+    "y_axis": null,
+    "description": "Visual appearance of lifted dilute methane coflow flames and electric field compaction effects. Figure type: Flame photographs. Conditions represented: Matched fuel/coflow velocity; electric field potential up to 10 kV Related finding: FIND-ACME-01, FIND-ACME-02",
+    "qualitative_observations": "Flames become more compact as electric field potential becomes increasingly negative."
+  },
+  {
+    "figure_number": "Figure 4",
+    "caption": "Low-momentum flames shown at different scales: (a) pure ethylene BRE flame where the burner is illuminated from the left in red, (b) inverse flame encompassing the porous spherical burner, with an oxygen/nitrogen mixture flowing from the burner into an ethylene/nitrogen atmosphere, (c) false-colored image of a diluted hydrogen flame, revealing the burner and glowing ceramic fibers for Thin-Filament Pyrometry.",
+    "page_number": 7,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Dome-shaped BRE flame, inverse spherical flame, and TFP fiber pyrometry image. Figure type: Flame photographs. Conditions represented: Low-momentum microgravity conditions; porous burner configurations Related finding: FIND-ACME-03",
+    "qualitative_observations": "Demonstrates stable low-momentum burning and spherical flame configurations."
+  },
+  {
+    "figure_number": "Figure 5",
+    "caption": "Appearance of a cool flame, in intensified imaging, after the hot flame quenches in a normal-flame test with diluted n-butane.",
+    "page_number": 8,
+    "x_axis": "Time (seconds)",
+    "y_axis": null,
+    "description": "Transition from hot flame quenching due to radiative heat loss to cool flame appearance over time (60.87 s to 65.65 s). Figure type: Intensified camera image sequence. Legend: Time stamps from 60.87 s to 65.65 s Conditions represented: CFI-G normal-flame test with diluted n-butane Related finding: FIND-ACME-05",
+    "qualitative_observations": "Hot flame quenches around 61.30-61.74 s, followed by appearance of a much smaller cool flame from 63.04 s onwards."
+  }
+]

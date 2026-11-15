@@ -1,0 +1,35 @@
+{
+  "investigation_code": "INV-ACME-001",
+  "title": "Advanced Combustion via Microgravity Experiments (ACME)",
+  "abstract": "From late 2017 to early 2022, six independent studies with flames of gaseous fuels were conducted on the International Space Station (ISS) in the U.S. combustion research facility. An exploration of flames at the extremes of high sooting and high dilution was conducted with a coaxial coflow burner... The objectives and selected findings of each investigation will be briefly discussed after a short review of the advantages of studying combustion in microgravity, earlier ISS research, and the experimental hardware and its operation.",
+  "investigation_type": "Flight experiment (ISS)",
+  "keywords": [
+    "flames",
+    "microgravity",
+    "non-premixed",
+    "laminar"
+  ],
+  "combustion_phenomena": [
+    "Soot formation and flame structure in microgravity",
+    "Electric-field effects and chemi-ionization in diffusion flames",
+    "Material flammability and extinction in quiescent microgravity atmospheres",
+    "Sooting inception, flame design, and radiative extinction oscillations",
+    "Low-temperature combustion / cool flames"
+  ],
+  "objectives": [],
+  "metadata": {
+    "publication_date": "2022-05-15",
+    "title_basis": "Named in the Figure 1 caption of the source; no investigation title field was supplied."
+  },
+  "publication": {
+    "title": "Laminar Non-Premixed Flames of Gaseous Fuel Aboard the International Space Station",
+    "authors": [
+      "Dennis P. Stocker"
+    ],
+    "publication_year": 2022,
+    "doi": null,
+    "journal": "2022 Spring Technical Meeting of The Central States Section of the Combustion Institute",
+    "publication_type": "Conference Paper",
+    "abstract": "From late 2017 to early 2022, six independent studies with flames of gaseous fuels were conducted on the International Space Station (ISS) in the U.S. combustion research facility. An exploration of flames at the extremes of high sooting and high dilution was conducted with a coaxial coflow burner... The objectives and selected findings of each investigation will be briefly discussed after a short review of the advantages of studying combustion in microgravity, earlier ISS research, and the experimental hardware and its operation."
+  }
+}

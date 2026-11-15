@@ -1,0 +1,66 @@
+{
+  "investigation_code": "INV-SPICE-001",
+  "title": "Smoke Point in Co-flow Experiment (SPICE): Laminar Smoke Point Properties of Non-buoyant Round-Jet Diffusion Flames",
+  "abstract": "The laminar smoke point is the condition (and the luminous flame length) where a flame begins to emit soot. Smoke points indicate the sooting propensity of a fuel in diffusion flames. SPICE project measured laminar smoke points in non-buoyant laminar jet diffusion flames in co-flowing air aboard the International Space Station. Fifty-two smoke points were found for ethylene, propane, propylene, and propylene/nitrogen mixtures (note: Closing Remarks states 55 smoke points). Burner diameters were 0.41, 0.76, and 1.6 mm and co-flow velocities varied from 5.4 – 65 cm/s. Increasing co-flow velocity decreases luminous flame lengths, but moves smoke points to higher fuel flow rates and longer luminous flame lengths. Smaller burners have longer smoke points for co-flowing flames. The measured smoke point lengths were found to correlate with burner diameter to the -0.91 power times coflow velocity to the 0.41 power. The measurements allow estimates of pseudo threshold soot indices (TSI) for microgravity diffusion flames, indicating an unusually high sooting propensity for propane in microgravity.",
+  "research_category": "Microgravity Combustion Science / Soot Formation and Laminar Jet Diffusion Flames",
+  "investigation_type": "Flight experiment (ISS)",
+  "combustion_phenomena": [
+    "Laminar smoke point onset (soot emission threshold)",
+    "Soot formation, convection, and oxidation in non-buoyant jet diffusion flames",
+    "Radiative heat loss and tip extinguishment (open-tipped flames)",
+    "Luminous flame length and shape scaling with fuel mass flow rate, burner diameter, and co-flow velocity",
+    "Centerline flame residence time effects"
+  ],
+  "keywords": [
+    "laminar smoke point",
+    "non-buoyant diffusion flames",
+    "microgravity combustion",
+    "soot formation",
+    "co-flow jet",
+    "threshold soot index",
+    "Microgravity Science Glovebox",
+    "International Space Station"
+  ],
+  "objectives": [
+    "Measure laminar smoke-point properties (fuel flow rates and luminous flame lengths) of non-buoyant round-jet diffusion flames in co-flowing air aboard the International Space Station across multiple fuels, nozzle diameters, and co-flow velocities.",
+    "Measure luminous flame shapes under co-flow conditions to verify computational models of flame shapes and heat/mass transfer mechanisms.",
+    "Estimate pseudo threshold soot indices (TSI) and sooting propensities of gaseous hydrocarbon fuels in microgravity diffusion flames."
+  ],
+  "metadata": {
+    "associated_research_programme": "ISS Exploration Research Project / Exploration Technology Development Program (originally awarded by Microgravity Science and Application Division of NASA Headquarters; executed under MRDOC Small Payloads Projects Task)",
+    "research_institution": [
+      "NASA Glenn Research Center (Cleveland, Ohio)",
+      "University of Maryland (College Park, MD)",
+      "National Center for Space Exploration Research (Cleveland, Ohio)",
+      "University of Michigan (original proposal by Prof. Gerard M. Faeth)"
+    ],
+    "authors": [
+      "Dr. David L. Urban (PI, succeeded Prof. Gerard M. Faeth)",
+      "Prof. Peter B. Sunderland (Co-I)",
+      "Dr. Zeng-Guang Yuan (Staff Scientist)"
+    ],
+    "associated_publications": [
+      "Appendix B: 2009 Eastern States Combustion Meeting, paper A",
+      "Appendix C: 2010 AIAA Paper, paper B",
+      "Appendix D: 2010 33rd Symposium (International) on Combustion Paper, paper C",
+      "Appendix E: 2010 Leeds Paper, paper D",
+      "Appendix F: 2010 Fire Safety Journal Paper, paper E",
+      "Precursor/Related: Laminar Soot Processes (LSP, STS-73, STS-94, MSL-1) and Enclosed Laminar Flames (ELF, USMP-4/STS-87)"
+    ],
+    "mission_relevance_explicitly_supported": "Insights into soot generation and oxidation processes under microgravity conditions are critical to devise better fire safety strategies in spacecraft needed for long-term space travels and other space exploration activities, as carbon monoxide emitted by smoking flames is a major cause of death in fires and soot radiation contributes to fire spread.",
+    "investigation_identifier": "SPICE",
+    "publication_date": "2011-12-02"
+  },
+  "publication": {
+    "title": "Smoke Point in Co-flow Experiment (SPICE) Final Report",
+    "authors": [
+      "Dr. David L. Urban (PI, succeeded Prof. Gerard M. Faeth)",
+      "Prof. Peter B. Sunderland (Co-I)",
+      "Dr. Zeng-Guang Yuan (Staff Scientist)"
+    ],
+    "publication_year": 2011,
+    "doi": null,
+    "publication_type": "Final report",
+    "abstract": "The laminar smoke point is the condition (and the luminous flame length) where a flame begins to emit soot. Smoke points indicate the sooting propensity of a fuel in diffusion flames. SPICE project measured laminar smoke points in non-buoyant laminar jet diffusion flames in co-flowing air aboard the International Space Station. Fifty-two smoke points were found for ethylene, propane, propylene, and propylene/nitrogen mixtures (note: Closing Remarks states 55 smoke points). Burner diameters were 0.41, 0.76, and 1.6 mm and co-flow velocities varied from 5.4 – 65 cm/s. Increasing co-flow velocity decreases luminous flame lengths, but moves smoke points to higher fuel flow rates and longer luminous flame lengths. Smaller burners have longer smoke points for co-flowing flames. The measured smoke point lengths were found to correlate with burner diameter to the -0.91 power times coflow velocity to the 0.41 power. The measurements allow estimates of pseudo threshold soot indices (TSI) for microgravity diffusion flames, indicating an unusually high sooting propensity for propane in microgravity."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "investigation_code": "EXAMPLE-000",
+  "title": "FORMAT EXAMPLE ONLY - not a real NASA investigation",
+  "description": "Placeholder showing the structure of investigation.json. Replace with extracted data.",
+  "research_category": "Example category",
+  "investigation_type": "ground-based",
+  "combustion_phenomena": ["flame spread"],
+  "keywords": ["example"],
+  "objectives": ["Illustrate the ingestion format."],
+  "limitations": ["Example limitation text, as stated by the source."],
+  "publication": {
+    "title": "Example publication title",
+    "authors": ["A. Author"],
+    "publication_year": 2000,
+    "doi": null,
+    "journal": "Example Journal",
+    "publication_type": "journal article",
+    "file_name": "paper.pdf"
+  }
+}

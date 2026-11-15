@@ -1,0 +1,65 @@
+[
+  {
+    "figure_number": "Figure 1",
+    "caption": "Soot path lines through buoyant and non-buoyant flames",
+    "page_number": 22,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Comparison of soot formation zones (between equivalence ratios phi = 1 and phi = 2) and convective soot particle streamlines relative to the burner and flame sheet in buoyant vs. non-buoyant laminar jet diffusion flames. Figure type: Schematic diagram. Legend: Hatched region: Soot Formation Region; outer curve: Flame Sheet (phi = 1); inner curve: phi = 2; arrows: Soot Path (Typ). Conditions represented: Conceptual comparison of normal-gravity buoyant vs. microgravity non-buoyant round-jet diffusion flames. Related finding: Theoretical background in Introduction (p. 22)",
+    "qualitative_observations": "In buoyant flames, soot forms near phi = 1 and convects inward toward cooler fuel-rich regions; in non-buoyant flames, soot forms near the cool core (phi ~ 2) and is drawn outward directly toward the flame sheet."
+  },
+  {
+    "figure_number": "Figures 2 - 13",
+    "caption": "Hardware schematics, photographs, plumbing diagrams, MSG integration views, camera mounts, control box, avionics enclosures, and duct velocity probe locations.",
+    "page_number": 23,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Detailed hardware layout of the SPICE apparatus inside and outside the ISS Microgravity Science Glovebox (MSG), including flow duct, nozzles, igniters, fuel supply plumbing, Nikon D100 still camera, Panasonic video camera with 45-degree mirror, handheld control box, Power/Video Titler avionics boxes, and 18 velocity measurement locations. Figure type: Engineering schematics and hardware photographs. Legend: Part numbers and component callouts shown on pp. 23–31. Conditions represented: SPICE flight hardware configuration in ISS MSG. Related finding: FIND-SPICE-07 (apparatus setup)",
+    "qualitative_observations": "Documents hardware modifications from ELF to SPICE, including real-time flow-rate video titling and safety interlocks between the Kanthal igniter and retractable 105 mm calibration ruler."
+  },
+  {
+    "figure_number": "Figure 14 & Figure 15",
+    "caption": "Figure 14: Air velocity distribution on the center vertical plane of the flow duct for 6 different fan settings. Figure 15: Air velocity distribution on the center horizontal plane of the flow duct for 6 different fan settings.",
+    "page_number": 31,
+    "x_axis": "Velocity (cm/s)",
+    "y_axis": "Vertical Position Off Floor (mm); Horizontal Position Off Centerline (mm)",
+    "description": "Cold-flow air velocity (cm/s) across vertical height off floor (19, 36, 57 mm) and horizontal position off centerline (-20, 0, +20 mm) at two axial stations (13 mm and 56 mm downstream of nozzle tip) for fan dial settings 0, 2, 4, 6, 8, and 10. Figure type: Line/profile plots. Legend: Thin lines: 13 mm station; Thick lines: 56 mm station; Fan Dial Settings: 0, 2, 4, 6, 8, 10. Conditions represented: Pre-test cold-flow anemometer mapping in SPICE flow duct without flame. Related finding: FIND-SPICE-07",
+    "qualitative_observations": "Pronounced centerline velocity dip occurs at the 13 mm station due to the nozzle wake; at 56 mm, the vertical profile becomes nearly linear (higher near floor) while a slight centerline dip persists horizontally. Non-zero flow exists even at fan setting 0."
+  },
+  {
+    "figure_number": "Figure 16",
+    "caption": "Numerical simulation of air flow in the region near the nozzle exit for a fixed velocity at nozzle exit and three co-flow velocities.",
+    "page_number": 33,
+    "x_axis": "Radial coordinate (m (unlabeled axis ticks))",
+    "y_axis": "Axial coordinate (m (unlabeled axis ticks))",
+    "description": "Simulated velocity magnitude color maps and streamlines near a 1.6 mm ID nozzle exit with fixed 50 cm/s jet velocity and co-flow air velocities of 0, 25, and 100 cm/s. Figure type: 2D CFD velocity contour and streamline plots (COMSOL). Legend: Color scale: blue (low velocity) to red (high velocity, different scale per panel); white curves: streamlines. Conditions represented: COMSOL cold-flow simulation: 1.6 mm ID nozzle, 50 cm/s nozzle velocity, co-flow = 0, 25, 100 cm/s. Related finding: FIND-SPICE-07",
+    "qualitative_observations": "At 25 cm/s co-flow, the nozzle boundary layer creates an annular velocity deficit extending far downstream; at 100 cm/s co-flow, the wake recovers rapidly into a monotonically increasing radial velocity profile."
+  },
+  {
+    "figure_number": "Figure 17",
+    "caption": "Still camera images of 75% C3H6 flames with (top) decreasing coflow velocity, and (bottom) increasing fuel flow rate. Images were taken at f/11 with a shutter speed of 3.1 ms, except the rightmost image in the top row and 3rd image in the bottom row, which used a shutter speed of 1.3 ms in original color.",
+    "page_number": 35,
+    "x_axis": null,
+    "y_axis": null,
+    "description": "Direct color still photographs of 75% propylene / 25% N2 flames on a 1.6 mm burner approaching and crossing the laminar smoke point. Figure type: Multi-panel flame photograph sequence. Legend: Top row (u_f = 41.9 cm/s): u_a = 59.0, 55.2, 47.7, 36.4 cm/s; Bottom row (u_a = 50.5 cm/s): u_f = 28.2, 32.9, 37.6, 42.3 cm/s; 30 mm scale bar. Conditions represented: 75% C3H6 / 25% N2 on 1.6 mm ID burner in microgravity co-flowing air. Related finding: FIND-SPICE-02, FIND-SPICE-03",
+    "qualitative_observations": "In both sequences, the smoke point occurs between the 3rd and 4th images, marked by tip opening, dimming/reddening, and soot escape; flame length is visibly more sensitive to fuel velocity than co-flow air velocity."
+  },
+  {
+    "figure_number": "Figure 18",
+    "caption": "Smoke point luminous length plotted with respect to coflow velocity. The lines shown are fits for each pairing of fuel and burner diameter for present data.",
+    "page_number": 36,
+    "x_axis": "Coflow Velocity (cm/s)",
+    "y_axis": "Smoke Point Length (mm)",
+    "description": "Measured smoke-point luminous flame length (mm) versus co-flow velocity (cm/s) across all five fuels and three burner diameters (0.41, 0.76, 1.6 mm), plotted alongside zero-coflow microgravity reference data (Ref. 18, Urban et al., 2000). Figure type: Scatter plot with linear trend lines. Legend: Symbols denote fuel (C2H4, C3H8, C3H6, 75% C3H6, 50% C3H6) and burner ID (0.41, 0.76, 1.6 mm, plus Ref. 18 at 1.6 and 2.7 mm). Conditions represented: All 52 SPICE smoke-point conditions plus zero-coflow literature data. Related finding: FIND-SPICE-03, FIND-SPICE-04, FIND-SPICE-06",
+    "qualitative_observations": "Smoke-point length increases monotonically with co-flow velocity and decreases with increasing burner diameter; slope decreases for more heavily sooting fuels."
+  },
+  {
+    "figure_number": "Figure 19",
+    "caption": "Smoke point luminous length plotted with respect to fuel mass flow rate divided by stoichiometric mixture fraction. A linear fit that intersects the origin is shown.",
+    "page_number": 37,
+    "x_axis": "Fuel Mass Flow Rate / Stoich. Mixt. Frac. (mg/s)",
+    "y_axis": "Smoke Point Length (mm)",
+    "description": "Correlation of smoke-point luminous flame length (mm) against m_dot_f / Z_st (mg/s) across all fuels and burner diameters, with comparison to Urban et al. (2000) at u_a = 0. Figure type: Scatter plot with origin-constrained linear regression. Legend: Data points by fuel and burner ID (0.41, 0.76, 1.6 mm); linear fit equation y = 1.6097x, R^2 = 0.9514. Conditions represented: All 52 SPICE smoke-point conditions. Related finding: FIND-SPICE-05",
+    "qualitative_observations": "All fuels collapse near a single linear correlation through the origin (slope 1.6097 mm/(mg/s)), except smallest-burner flames (0.41 mm, u_a/u_f < 0.08) which lie systematically above the line."
+  }
+]

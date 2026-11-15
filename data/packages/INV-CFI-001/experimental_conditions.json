@@ -1,0 +1,342 @@
+[
+  {
+    "parameter": "Gravity",
+    "value": "Microgravity (spherically symmetric droplet combustion)",
+    "unit": null,
+    "context": "Low-Earth Orbit aboard International Space Station (ISS) inside Combustion Integrated Rack (CIR) / Multi-user Droplet Combustion Apparatus (MDCA), January 2017 – September 2017",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Fuel",
+    "value": "Liquid hydrocarbons: (1) Pure n-dodecane (note: Section 5.1 text has a typographical mention of 'n-dodecanol/iso-dodecanol' while Fig. 1 caption, Section 4.b, and Section 5.5 state n-dodecane / iso-dodecane); (2) n-dodecane/iso-dodecane mixtures (75%/25% and 60%/40% by mass); (3) Farnesane (renewable jet fuel)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Material composition",
+    "value": "Liquid droplets ~4 mm initial diameter (e.g., D0 = 4.040 mm in FLEX-1223; D0 = 4.345 mm in FLEX-1268), deployed either free-floating or tethered on a 40-micron silicon-carbide (SiC) fiber",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Oxidizer",
+    "value": "Oxygen (O2) mixed with nitrogen (N2) and/or helium (He) diluent",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Oxygen concentration",
+    "value": "10-30",
+    "unit": "%",
+    "context": "Chamber filled from pre-mixed gas bottles prior to each test. Source wording: 10% to 30% operational range; specifically tested at 21% O2 (0.21 mole fraction, e.g., Y_O2 = 0.210 in FLEX-1223), 17% O2 (Fig. 5), and 12% O2 (Fig. 3 caption states 12% O2 - 50% N2 - 29% He, though inset box in Fig. 3 reads Y_O2=0.216, Y_N2=0.502, Y_He=0.282)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "Operational requirement: 0.5 to 5.0 atm (objectives mention 0.25 to 5 atm). Tested: pure n-dodecane at 0.5, 0.75, 1, 1.25, 2, 3, and 5 atm (approx. 380, 570, 760, 1520, 2280, 3800 mmHg in Fig. 6); n-dodecane/iso-dodecane mixtures at 0.5 to 5 atm; farnesane at 0.75 to 3 atm",
+    "unit": null,
+    "context": "Constant chamber pressure maintained per test point after ~2 min gas stabilization dwell",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Temperature",
+    "value": "Not reported for initial ambient chamber gas (monitored in near real-time); flame temperatures cited from FLEX background as 700-900 K for cool flames vs >1200 K for hot flames",
+    "unit": null,
+    "context": "Chamber temperature stabilized during 2-minute settling period prior to droplet dispensing",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Flow velocity",
+    "value": "Quiescent (zero forced convective flow; free-floating droplets deployed without residual momentum, or tethered on 40-micron SiC fiber)",
+    "unit": null,
+    "context": "Droplet internal fluid motion allowed to subside during >=10 s dwell period after needle retraction",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Chamber dimensions (value)",
+    "value": "Not explicitly reported in CFI report (CIR / MDCA chamber; backlit camera FOV is 5 cm x 5 cm)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Chamber dimensions (unit)",
+    "value": "cm",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Chamber dimensions (context)",
+    "value": "Standard ISS CIR/MDCA hardware (references Dietrich et al., 2014)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Ignition method",
+    "value": "Pair of retractable hot-wire igniters energized for a selectable duration of 1 s to 5 s, then withdrawn from the field of view upon ignition detection",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Experimental duration (pre test dwell)",
+    "value": "~2 minutes chamber gas settling time + >=10 seconds droplet fluid damping dwell",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Experimental duration (burn duration)",
+    "value": "Tens of seconds per droplet until cool-flame extinction or complete droplet burnout (over 200 tests conducted between Jan 2017 and Sept 2017; ~8 burns per operational day)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "ISS Combustion Integrated Rack (CIR) and Multi-user Droplet Combustion Apparatus (MDCA)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Fuel dispensing syringes and hypodermic needles",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "40-micron silicon-carbide (SiC) tethering fiber (for tethered test points)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Backlit black-and-white high-resolution camera (5 cm x 5 cm FOV) for droplet diameter history and soot-shell imaging",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "UV-sensitive intensified camera imaging OH* chemiluminescence for flame diameter",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Color camera with near real-time downlink to Telescience Support Center (TSC) at NASA GRC",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Narrow-band and wide-band radiometers for flame radiant emission",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Helium dilution",
+    "value": "29% and 59% He addition with O2 mole fraction maintained at 0.21 (and 28.2% He in FLEX-1268)",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Mixture ratios",
+    "value": "75%/25% and 60%/40% n-dodecane/iso-dodecane by mass",
+    "unit": null,
+    "context": null,
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Oxygen concentration",
+    "value": "21",
+    "unit": "%",
+    "context": "Tested in air (e.g. Y_O2 = 0.210 in FLEX-1223)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Oxygen concentration",
+    "value": "17",
+    "unit": "%",
+    "context": "Tested, 17% O2 / 83% N2 (Fig. 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "0.5-5",
+    "unit": "atm",
+    "context": "Operational requirement (Section: Operational Requirements and Protocols)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "0.5",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "0.75",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "1",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "1.25",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "2",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "3",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "5",
+    "unit": "atm",
+    "context": "Tested for pure n-dodecane (Fig. 6 / Section 5)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  },
+  {
+    "parameter": "Cool-flame temperature",
+    "value": "700-900",
+    "unit": "K",
+    "context": "Cited from FLEX background: cool flames (vs >1200 K for hot flames)",
+    "source_page": 1,
+    "source_section": "Operational Requirements and Protocols, Overview, Operations, Results",
+    "source_table": null,
+    "source_figure": "1, 3, 4, 5, 6"
+  }
+]

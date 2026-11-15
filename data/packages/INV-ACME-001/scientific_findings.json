@@ -1,0 +1,85 @@
+[
+  {
+    "description": "Soot volume fraction in microgravity sooty attached coflow flames can be several times greater than in normal-gravity comparison flames, and microgravity flames are taller and wider.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Soot formation and flame structure in microgravity",
+    "reported_values": {
+      "authors_interpretation": "Absence of buoyant convection leads to longer residence times and enhanced soot production, as well as extended dilution limits allowing stable lifted flames at lower fuel concentrations.",
+      "limitations_and_qualifications": "Preliminary results; test duration limited by constant volume chamber constraints.",
+      "experimental_or_computational_context": "Coflow Laminar Diffusion Flame (CLD Flame) investigation on ISS using diluted methane and ethylene flames in air coflow.",
+      "associated_experimental_conditions": "COND-ACME-01",
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "extraction_finding_id": "FIND-ACME-01"
+    },
+    "source_page": 5,
+    "source_section": "3. Results and Discussion",
+    "source_figure": "ure 3a"
+  },
+  {
+    "description": "In electric field tests (E-FIELD Flames), microgravity flames exhibit a distinct peak ion current corresponding to the most compact flame, with clear correlations between flame luminosity, combustion intensity, and ion current.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Electric-field effects and chemi-ionization in diffusion flames",
+    "reported_values": {
+      "reported_numerical_values": "Up to 10 kV potential",
+      "authors_interpretation": "Direct ion transport and induced ion wind modify flame shape, suppress soot generation, and stabilize highly diluted flames with weak electric fields.",
+      "limitations_and_qualifications": "High field strengths resulted in corona and arc discharges.",
+      "experimental_or_computational_context": "E-FIELD Flames study burning pure and diluted methane and ethylene with gas-jet and coflow configurations under electric potentials up to 10 kV.",
+      "associated_experimental_conditions": "COND-ACME-04",
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "extraction_finding_id": "FIND-ACME-02"
+    },
+    "source_page": 6,
+    "source_section": "3. Results and Discussion",
+    "source_figure": "ure 3b"
+  },
+  {
+    "description": "Low-momentum microgravity flames (Burning Rate Emulator - BRE) can burn for minutes without airflow or flame spread, but self-extinguish in oxygen concentrations below ~25% by volume. Smaller flames burn for minutes at elevated oxygen, while larger flames self-extinguish within 1.5 minutes (ethylene) or within a minute (methane).",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Material flammability and extinction in quiescent microgravity atmospheres",
+    "reported_values": {
+      "reported_numerical_values": "Oxygen concentration below ~25% by volume; extinction time within 1.5 minutes (ethylene) or 1 minute (methane)",
+      "authors_interpretation": "Thermal feedback and extinction behavior in still atmospheres provide fundamental data on materials flammability for spacecraft fire prevention.",
+      "limitations_and_qualifications": "Simulated using gaseous fuels matching properties of solid materials.",
+      "experimental_or_computational_context": "BRE investigation using flat porous burner fed with gaseous fuel simulating condensed-phase fuels at elevated oxygen and reduced pressures.",
+      "associated_experimental_conditions": "COND-ACME-01",
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "extraction_finding_id": "FIND-ACME-03"
+    },
+    "source_page": 6,
+    "source_section": "3. Results and Discussion",
+    "source_figure": "ure 4a"
+  },
+  {
+    "description": "In Flame Design experiments, very small flames have low radiative loss and asymptotically approach steady-state behavior (lasting over 14 minutes), whereas large flames increase in size over time until extinction due to radiative heat loss, experiencing an unstable oscillatory mode before full extinction.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Sooting inception, flame design, and radiative extinction oscillations",
+    "reported_values": {
+      "reported_numerical_values": "Flame duration over 14 minutes for small flames",
+      "authors_interpretation": "Flame size increases with reactant flow rate and decreases with ambient oxygen concentration; radiative heat loss drives unsteadiness and extinction in large flames.",
+      "limitations_and_qualifications": "Tests terminated due to operational constraints.",
+      "experimental_or_computational_context": "Flame Design normal and inverse flame tests with various concentrations of ethylene and oxygen.",
+      "associated_experimental_conditions": "COND-ACME-01",
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "extraction_finding_id": "FIND-ACME-04"
+    },
+    "source_page": 7,
+    "source_section": "3. Results and Discussion",
+    "source_figure": null
+  },
+  {
+    "description": "Non-premixed spherical cool flames were discovered in normal-flame CFI-G testing with n-butane after hot flames quenched due to radiative heat loss; cool flames are significantly smaller than corresponding hot flames.",
+    "evidence_type": "experimental_observation",
+    "phenomenon": "Low-temperature combustion / cool flames",
+    "reported_values": {
+      "authors_interpretation": "Low-temperature kinetic mechanisms support quasi-steady spherical cool flames following hot flame quenching.",
+      "limitations_and_qualifications": "Observed in specific alkane (n-butane) normal-flame tests.",
+      "experimental_or_computational_context": "Cool Flames Investigation with Gases (CFI-G) normal and inverse flame tests of ethane, propane, and n-butane on porous burners.",
+      "associated_experimental_conditions": "COND-ACME-01",
+      "evidence_type_as_extracted": "Direct experimental observation",
+      "extraction_finding_id": "FIND-ACME-05"
+    },
+    "source_page": 8,
+    "source_section": "3. Results and Discussion",
+    "source_figure": "ure 5"
+  }
+]

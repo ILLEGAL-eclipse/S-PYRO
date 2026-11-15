@@ -1,0 +1,62 @@
+[
+  {
+    "condition_id": "COND-ACME-01",
+    "investigation_id": "INV-ACME-001",
+    "publication_id": "PUB-ACME-001",
+    "parameter": "Gravity level and environment",
+    "original_value": "Microgravity (Apparent near weightlessness, ISS environment)",
+    "original_unit": "g",
+    "experimental_context": "Combustion Integrated Rack (CIR) on the International Space Station",
+    "determination_method": "Specified as operating condition",
+    "source_page": 2,
+    "source_section": "1. Introduction / 2. Methods / Experimental"
+  },
+  {
+    "condition_id": "COND-ACME-02",
+    "investigation_id": "INV-ACME-001",
+    "publication_id": "PUB-ACME-001",
+    "parameter": "Chamber volume",
+    "original_value": "83",
+    "original_unit": "liters (free volume)",
+    "experimental_context": "Constant volume combustion chamber (CIR facility ~100-liter total volume)",
+    "determination_method": "Specified as operating condition",
+    "source_page": 5,
+    "source_section": "2. Methods / Experimental"
+  },
+  {
+    "condition_id": "COND-ACME-03",
+    "investigation_id": "INV-ACME-001",
+    "publication_id": "PUB-ACME-001",
+    "parameter": "Fuel types",
+    "original_value": "Methane, ethylene, hydrogen, ethane, propane, n-butane, hydrogen/methane mixtures",
+    "original_unit": "N/A",
+    "experimental_context": "Gaseous fuels delivered via mass flow controllers and gas delivery system",
+    "determination_method": "Specified as operating condition",
+    "source_page": 4,
+    "source_section": "2. Methods / Experimental"
+  },
+  {
+    "condition_id": "COND-ACME-04",
+    "investigation_id": "INV-ACME-001",
+    "publication_id": "PUB-ACME-001",
+    "parameter": "Electric field voltage",
+    "original_value": "Up to 10",
+    "original_unit": "kV",
+    "experimental_context": "E-FIELD Flames study, voltage differential between burner and circular electrode mesh downstream",
+    "determination_method": "Specified as operating condition",
+    "source_page": 1,
+    "source_section": "Abstract / 3. Results and Discussion"
+  },
+  {
+    "condition_id": "COND-ACME-05",
+    "investigation_id": "INV-ACME-001",
+    "publication_id": "PUB-ACME-001",
+    "parameter": "Thin Filament Pyrometry fiber diameter",
+    "original_value": "14",
+    "original_unit": "microns",
+    "experimental_context": "Translating array of silicon carbide fibers for flame temperature measurements",
+    "determination_method": "Specified as operating condition",
+    "source_page": 4,
+    "source_section": "2. Methods / Experimental"
+  }
+]

@@ -1,0 +1,15 @@
+dataset_name,row_index,variable,value,unit,experimental_condition,source_reference,source_page,source_table
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,ambient_pressure_P,946.618,mmHg,"FLEX-1223 (F090A08, Mar 31, 2017), 1.25 atm air",Figure 1 data box,8,Figure 1 data box
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,oxygen_mole_fraction_YO2,0.210,mole fraction,FLEX-1223 (F090A08),"Figure 1 data box; Y_N2=0.790, Y_CO2=0.000, Y_He=0.000",8,Figure 1 data box
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,initial_droplet_diameter_D0,4.040,mm,FLEX-1223 (F090A08),Figure 1 data box,8,Figure 1 data box
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,hot_flame_extinction_diameter_Dext,3.627,mm,FLEX-1223 (F090A08),Figure 1 data box,8,Figure 1 data box
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,average_hot_burning_rate_kavg,0.388,mm^2/sec,FLEX-1223 (F090A08),Figure 1 data box,8,Figure 1 data box
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,average_cool_burning_rate_kavg_cool,0.401,mm^2/sec,FLEX-1223 (F090A08),Figure 1 data box,8,Figure 1 data box
+"CFI FLEX-1223 (n-dodecane, 1.25 atm) - Figure 1 data box",0,cool_flame_extinction_diameter_Dext_cool,0.392,mm,FLEX-1223 (F090A08),Figure 1 data box,8,Figure 1 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,ambient_pressure_P,2086.999,mmHg,"FLEX-1268 (F146A03, May 26, 2017), ~3 atm with He dilution",Figure 3 data box,9,Figure 3 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,oxygen_mole_fraction_YO2,0.216,mole fraction,FLEX-1268 (F146A03) inset box (caption states 12% O2),"Figure 3 data box; Inset lists Y_O2=0.216, Y_N2=0.502, Y_CO2=0.000, Y_He=0.282; caption lists 12% O2 - 50% N2 - 29% He",9,Figure 3 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,initial_droplet_diameter_D0,4.345,mm,FLEX-1268 (F146A03),Figure 3 data box,9,Figure 3 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,hot_flame_extinction_diameter_Dext,4.012,mm,FLEX-1268 (F146A03),Figure 3 data box,9,Figure 3 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,average_hot_burning_rate_kavg,0.404,mm^2/sec,FLEX-1268 (F146A03),Figure 3 data box,9,Figure 3 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,average_cool_burning_rate_kavg_cool,0.560,mm^2/sec,FLEX-1268 (F146A03),Figure 3 data box,9,Figure 3 data box
+"CFI FLEX-1268 (n-dodecane, ~3 atm, He dilution) - Figure 3 data box",0,cool_flame_extinction_diameter_Dext_cool,2.563,mm,FLEX-1268 (F146A03),Figure 3 data box,9,Figure 3 data box

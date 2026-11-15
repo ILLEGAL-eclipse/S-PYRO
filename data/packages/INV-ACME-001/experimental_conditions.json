@@ -1,0 +1,42 @@
+[
+  {
+    "parameter": "Gravity level and environment",
+    "value": "Microgravity (Apparent near weightlessness, ISS environment)",
+    "unit": null,
+    "context": "Combustion Integrated Rack (CIR) on the International Space Station; Determination: Specified as operating condition",
+    "source_page": 2,
+    "source_section": "1. Introduction / 2. Methods / Experimental"
+  },
+  {
+    "parameter": "Chamber volume",
+    "value": "83",
+    "unit": "liters",
+    "context": "Constant volume combustion chamber (CIR facility ~100-liter total volume); Unit as written: liters (free volume); Determination: Specified as operating condition",
+    "source_page": 5,
+    "source_section": "2. Methods / Experimental"
+  },
+  {
+    "parameter": "Fuel",
+    "value": "Methane, ethylene, hydrogen, ethane, propane, n-butane, hydrogen/methane mixtures",
+    "unit": null,
+    "context": "Gaseous fuels delivered via mass flow controllers and gas delivery system; Source parameter: Fuel types; Determination: Specified as operating condition",
+    "source_page": 4,
+    "source_section": "2. Methods / Experimental"
+  },
+  {
+    "parameter": "Electric field voltage",
+    "value": "Up to 10",
+    "unit": "kV",
+    "context": "E-FIELD Flames study, voltage differential between burner and circular electrode mesh downstream; Determination: Specified as operating condition",
+    "source_page": 1,
+    "source_section": "Abstract / 3. Results and Discussion"
+  },
+  {
+    "parameter": "Thin Filament Pyrometry fiber diameter",
+    "value": "14",
+    "unit": "microns",
+    "context": "Translating array of silicon carbide fibers for flame temperature measurements; Determination: Specified as operating condition",
+    "source_page": 4,
+    "source_section": "2. Methods / Experimental"
+  }
+]

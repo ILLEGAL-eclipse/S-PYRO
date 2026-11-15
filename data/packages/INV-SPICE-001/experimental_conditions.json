@@ -1,0 +1,262 @@
+[
+  {
+    "parameter": "Gravity",
+    "value": "Microgravity (non-buoyant)",
+    "unit": null,
+    "context": "Low-Earth Orbit aboard International Space Station (ISS) inside Microgravity Science Glovebox (MSG), Feb 14 – June 23, 2009",
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Fuel",
+    "value": "Gaseous hydrocarbons and nitrogen-diluted mixtures: methane (CH4), ethylene (C2H4), propane (C3H8), propylene (C3H6), 75% C3H6 / 25% N2 (by mole), 50% C3H6 / 50% N2 (by mole)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Material composition",
+    "value": "Pre-filled 150 ml DOT stainless steel cylinders at initial gauge/absolute pressures: ethylene (210 psia), methane (210 psia), propane (110 psia), propylene (135 psia), 75% propylene/25% N2 (180 psia), 50% propylene/50% N2 (180 psia); regulator output 0-50 psig; burner nozzles made of stainless steel tubing",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Oxidizer",
+    "value": "ISS cabin air (co-flowing air)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Oxygen concentration",
+    "value": "19-24",
+    "unit": "%",
+    "context": "ISS cabin air flushed through MSG after every two burns; Table 1 calculations assume 21 +/- 1% O2. Source wording: 19-24% (nominal 21 +/- 1%)",
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Pressure",
+    "value": "101",
+    "unit": "kPa",
+    "context": "Assumed ISS cabin ambient pressure for Table 1 velocity and Reynolds number calculations (MFC standard conditions: 0 C and 760 Torr)",
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Temperature",
+    "value": "298",
+    "unit": "K",
+    "context": "Assumed ambient temperature for Table 1 velocity, viscosity, and Reynolds number calculations (not dynamically measured inside flame)",
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Co-flow air velocity",
+    "value": "5.4-65",
+    "unit": "cm/s",
+    "context": "Varying by fuel and burner; spatially non-uniform in duct (center-dipping wake downstream of nozzle at 13 mm and 56 mm stations). Source wording: 5.4 - 65 (Table 1); up to ~50 nominal max in planning; non-zero minimum even at fan dial 0",
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Fuel jet velocity",
+    "value": "11.2-763",
+    "unit": "cm/s",
+    "context": "Computed from fuel mass flow rate (0.39 - 3.89 mg/s) and nozzle inner diameter assuming uniform profile at 298 K, 101 kPa. Source wording: 11.2 - 763",
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Chamber dimensions (flow duct interior)",
+    "value": "172 mm x 43 mm x 43 mm (note: text on p. 30 also notes height off floor positions up to 57 mm)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Chamber dimensions (nozzle dimensions)",
+    "value": "Length: 50 mm; Inner diameters (ID): 0.41 mm, 0.76 mm, and 1.6 mm (planned as 0.4, 0.8, 1.6 mm); nozzle tip positioned along centerline ~54 mm downstream of left inlet screen",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Ignition method",
+    "value": "Retractable coiled Kanthal hot-wire igniter powered with ~4 A electric current until bright red hot, moved to nozzle tip via mechanical linkage interlocked with front door Hall-effect sensor and retractable ruler",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Experimental duration (burn time)",
+    "value": "Typical burn time ~60 s per test; flames reached steady conditions within 5 s of ignition or flow change",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Experimental duration (campaign duration)",
+    "value": "12 sessions from February 14, 2009 to June 23, 2009; 526 flames ignited total",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Modified Enclosed Laminar Flames (ELF) flow duct hardware inside ISS Microgravity Science Glovebox (MSG)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "3-inch upstream DC fan (Panasonic Model FBA08A12H1A) + ceramic honeycomb flow strainer + inlet/exhaust screens",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Omni-directional anemometer (TSI Model 8475-3-xx) near nozzle connector (cold flow duct mapping done at 18 points across 2 stations [13 mm, 56 mm], 3 heights [19, 36, 57 mm], 3 lateral positions)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "MKS Type 2179 Mass Flow Controller (Model 1179A52CS1BV-S, 0-500 SCCM) with positive shutoff valve",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Process Valve compact stainless steel pressure regulator (CPR1-1B01A3E178, 0-50 psig)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Oriel Model 71768 thermopile radiometer (90-degree view angle) with 4-gain amplifier (10, 50, 250, 1000)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Modified Nikon D100 digital still camera viewing through top Lexan window (f/11, shutter speeds 3.1 ms and 1.3 ms)",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Panasonic WV-CP 654 video camera viewing front Lexan window via 45-degree mirror, merged with Video Titler Box stamping real-time fuel/air flow rates and radiometer gain",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Instrumentation",
+    "value": "Retractable 105 mm ruler tilted at 45 degrees for spatial calibration",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Stoichiometric mixture fraction zst",
+    "value": "C2H4: 0.0637; C3H8: 0.0603; C3H6: 0.0637; 75% C3H6: 0.0768; 50% C3H6: 0.1018",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Adiabatic flame temperature tad",
+    "value": "C2H4: 2367 K; C3H8: 2264 K; C3H6: 2332 K; 75% C3H6: 2317 K; 50% C3H6: 2288 K",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  },
+  {
+    "parameter": "Jet reynolds number re",
+    "value": "36.4 - 788 across observed smoke point tests",
+    "unit": null,
+    "context": null,
+    "source_page": 23,
+    "source_section": "SPICE Experiment Setup, SPICE Flight Tests, Test Results",
+    "source_table": "1",
+    "source_figure": "2-17"
+  }
+]

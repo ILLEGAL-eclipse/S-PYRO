@@ -1,0 +1,2 @@
+dataset_name,row_index,variable,value,unit,experimental_condition,source_reference,source_page,source_table
+Example table,0,Example variable,1.0,s,Example test,Table 1,1,1
